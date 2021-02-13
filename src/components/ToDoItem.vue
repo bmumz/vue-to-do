@@ -32,14 +32,9 @@ export default {
   align-items: center;
   padding: 1rem;
   margin: 1rem 0;
-  border-left: 6px solid rgb(185, 179, 253);
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(185, 179, 253, 0.36318277310924374) 100%
-  );
+  border-left: 6px solid #b4b7b9;
+  background: #eef2f3;
+  background: linear-gradient(to right, #f1f1f1, #b4b7b9);
   border-radius: 0 1rem 1rem 0;
 }
 
@@ -57,13 +52,20 @@ h3 {
 
 .delete {
   outline: none;
-  background-color: rgb(255, 107, 107);
+  background-color: #444;
+  border: 1px solid #111;
+  color: #eee;
   width: 1.5rem;
   height: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
+}
+
+.delete:hover,
+.delete:active {
+  background-color: #555;
 }
 
 .test {
